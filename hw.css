@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+
+.Section-1{
+  background-color: red;
+  color: white;
+}
+.shoe-1{
+  width: 400px;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.exampletag {
+  line-height: 40px;
+  text-transform: capitalize;
+  padding: 25px 10px;
+  margin:10px 5px 5px 8px;
+  /*if you do one element it does top, bottom, left and right.
+  When you do two values for that, like example the first two are top and bottom, second two are left and right */
+  /*Use control / to comment out a comment*/
+}
+
+
+p {
+  border: 1px solid black;
+}
+
+.box-model-example{
+  border:1px dotted black;
+  width: 500px;
+  height:400px;
+  padding-top: 60px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 40px;
+  /*height: 400+60+30=490 total height of this element (2 to account for top and bottom border px)*/
+  /*width: 500 +30+40=570 (2 more to account for right and left border px)*/
+}
