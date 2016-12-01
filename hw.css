@@ -3,13 +3,42 @@ body {
   line-height: 25px;
 }
 
+.shoe-nav-logo{
+  width: 60px;
+  height: 30px;
+}
+.top-nav{
+  word-spacing: 5px;
+}
 
+.second-top-nav{
+  margin-bottom: 5px;
+}
 .Section-1{
-  background-color: red;
+  background-color: darkorange;
   color: white;
 }
+
+.back-to-all-shoes{
+  display: block;
+  padding-top: 10px;
+}
+
 .shoe-1{
   width: 400px;
+  margin-left:30px;
+  margin-top: 30px;
+}
+
+.Section-3{
+  background-color: darkorange;
+  color: white;
+}
+
+.footer{
+  display: block;
+  padding-top: 30px;
+  word-spacing: 5px;
 }
 
 h1 {
@@ -20,29 +49,37 @@ a {
   text-decoration: none;
 }
 
-.exampletag {
+p {
+}
+
+div{
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 10px;
+}
+
+/*.exampletag {
   line-height: 40px;
   text-transform: capitalize;
   padding: 25px 10px;
-  margin:10px 5px 5px 8px;
+  margin:10px 5px 5px 8px;*/
   /*if you do one element it does top, bottom, left and right.
   When you do two values for that, like example the first two are top and bottom, second two are left and right */
   /*Use control / to comment out a comment*/
-}
 
 
-p {
-  border: 1px solid black;
-}
 
-.box-model-example{
+
+
+/*.box-model-example{
   border:1px dotted black;
   width: 500px;
   height:400px;
   padding-top: 60px;
   padding-left: 30px;
   margin-bottom: 30px;
-  margin-right: 40px;
+  margin-right: 40px;*/
   /*height: 400+60+30=490 total height of this element (2 to account for top and bottom border px)*/
   /*width: 500 +30+40=570 (2 more to account for right and left border px)*/
 }
