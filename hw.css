@@ -4,16 +4,31 @@ body {
 }
 
 .shoe-nav-logo{
-  width: 60px;
-  height: 30px;
+  width: 50px;
+  height: 25px;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 .top-nav{
   word-spacing: 5px;
+  display: inline-block;
+  margin-right: 1050px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .second-top-nav{
   margin-bottom: 5px;
+  display: inline-block;
+  margin-left: 5px;
 }
+.second-top-nav a {
+  margin-left: 5px;
+}
+
 .Section-1{
   background-color: darkorange;
   color: white;
@@ -25,9 +40,9 @@ body {
 }
 
 .shoe-1{
-  width: 400px;
-  margin-left:30px;
-  margin-top: 30px;
+  width: 350px;
+  margin-right:30px;
+  float: left;
 }
 
 .nav-2{
@@ -35,15 +50,83 @@ body {
   padding-top: 10px;
 }
 
+.nav-2 a {
+  margin-left: 5px;
+}
+
+.nav-2-a{
+float: right
+}
+
 .Section-3{
   background-color: darkorange;
   color: white;
 }
 
+.shoe-2{
+  width: 50px;
+  height: 100px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoe-3{
+  width: 50px;
+  height: 100px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoe-4{
+  width: 50px;
+  height: 100px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoe-2-a{
+  width: 300px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoe-3-a{
+  width: 300px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoe-4-a{
+  width: 300px;
+  margin-right:30px;
+  display: inline-block;
+}
+
+.shoes-section{
+  display: inline;
+  margin-right:30px;
+}
+
+
+.all-footer{
+  display: inline;
+}
+
 .footer{
-  display: block;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-right: 1050px;
+  display: inline-block;
+}
+
+.footer a {
+  margin-left: 5px;
+}
+
+.second-footer{
+  margin-top: 30px;
   word-spacing: 5px;
+  float: right;
+  display: inline-block;
 }
 
 h1 {
@@ -52,7 +135,12 @@ h1 {
 
 h3{
   text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 a {
   text-decoration: none;
