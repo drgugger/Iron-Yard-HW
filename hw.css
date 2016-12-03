@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .shoe-nav-logo{
@@ -30,8 +30,9 @@ body {
 }
 
 .Section-1{
-  background-color: darkorange;
+  background-color: #E66C2C;
   color: white;
+  height: 240px;
 }
 
 .back-to-all-shoes{
@@ -46,7 +47,7 @@ body {
 }
 
 .nav-2{
-  display: block;
+  display: inline-block;
   padding-top: 10px;
 }
 
@@ -55,78 +56,81 @@ body {
 }
 
 .nav-2-a{
-float: right
+float: right;
+display: inline-block;
+padding-right: 200px;
 }
 
 .Section-3{
-  background-color: darkorange;
+  background-color: #E66C2C;
   color: white;
 }
 
 .shoe-2{
-  width: 50px;
-  height: 100px;
-  margin-right:30px;
+  width: 170px;
+  height: 260px;
+  display: inline-block;
+  text-align: left;
+  line-height: 10px;
+}
+
+.shoe-2-picture{
+  width: 300px;
   display: inline-block;
 }
 
 .shoe-3{
-  width: 50px;
-  height: 100px;
-  margin-right:30px;
+  width: 170px;
+  height: 260px;
+  display: inline-block;
+  line-height: 10px;
+}
+
+.shoe-3-picture{
+  width: 300px;
   display: inline-block;
 }
 
 .shoe-4{
-  width: 50px;
-  height: 100px;
-  margin-right:30px;
+  width: 170px;
+  height: 260px;
   display: inline-block;
+  line-height: 10px;
 }
 
-.shoe-2-a{
+.shoe-4-picture{
   width: 300px;
-  margin-right:30px;
-  display: inline-block;
-}
-
-.shoe-3-a{
-  width: 300px;
-  margin-right:30px;
-  display: inline-block;
-}
-
-.shoe-4-a{
-  width: 300px;
-  margin-right:30px;
   display: inline-block;
 }
 
 .shoes-section{
   display: inline;
-  margin-right:30px;
 }
-
 
 .all-footer{
   display: inline;
 }
 
 .footer{
-  margin-top: 30px;
-  margin-right: 1050px;
+  /*margin-right: 1050px;*/
   display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 .footer a {
   margin-left: 5px;
 }
+.second-footer a {
+  margin-left: 5px;
+}
 
 .second-footer{
-  margin-top: 30px;
-  word-spacing: 5px;
+  margin-bottom: 5px;
+  margin-top: 20px;
   float: right;
   display: inline-block;
+  margin-right:10px;
 }
 
 h1 {
@@ -151,9 +155,14 @@ p {
 
 div{
   text-align: left;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-bottom: 10px;
+  padding-left: 250px;
+}
+
+p2{
+  color: black;
 }
 
 /*.exampletag {
