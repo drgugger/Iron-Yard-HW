@@ -11,26 +11,29 @@ body {
   margin-bottom: 20px;
   margin-top: 20px;
   margin-right: 10px;
+  text-decoration: none;
 }
 .top-nav{
   word-spacing: 5px;
   display: inline-block;
-  margin-right: 1050px;
+  margin-right: 1000px;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .second-top-nav{
   margin-bottom: 5px;
   display: inline-block;
   margin-left: 5px;
+  font-weight: bold;
 }
 .second-top-nav a {
   margin-left: 5px;
 }
 
 .Section-1{
-  background-color: #E66C2C;
+  background: linear-gradient(darkorange, #E66C2C);
   color: white;
   height: 240px;
 }
@@ -62,7 +65,7 @@ padding-right: 200px;
 }
 
 .Section-3{
-  background-color: #E66C2C;
+  background: linear-gradient(darkorange, #E66C2C);
   color: white;
 }
 
@@ -116,6 +119,7 @@ padding-right: 200px;
   display: inline-block;
   margin-bottom: 5px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .footer a {
@@ -131,6 +135,7 @@ padding-right: 200px;
   float: right;
   display: inline-block;
   margin-right:10px;
+  font-weight: bold;
 }
 
 h1 {
